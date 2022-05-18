@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 100%;
+    height: 2000px;
+    margin: 0em 0em;
+    background: #4d7949;
+}
+#cabecera{
+    width: 100%;
+    height: 300px;
+    background: url(../imagenes/bosque.jpg);
+    background-size: 100%;
+    padding: 2em 0em;
+}
+#titulo{
+    padding: 10px 50px;
+    color: #fff;
+    height: 60px;
+    background: rgba(0,0,0, 0.5)  
+}
+#principal{
+    width: 300px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+.contenido{
+    width: 400px;
+    height: 30px;
+    float: left;
+    padding: 5px 5px;
+    border-radius: 0.5em;
+    background: #25751e;
+    outline: 2px solid #4d7949;
+    text-decoration: none;
+    color:#fff
+    
+}
+.contenido1{
+    width: 400px;
+    outline: 1px solid #11270f;
+    padding: 5px 5px;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+}
+.contenido:hover{
+    width: 400px;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 0.5em;
+    background: #757171;
+    outline: 2px solid #4d7949;
+    text-decoration: none;
+    color:rgb(47, 189, 177)
+}
+#contenido2{
+    width: 1035px;
+    height: 1500px;
+    float: left;
+    position:  relative;
+    top: -40px;
+    outline: 1px solid #11270f;
+    background: #fff;
+}
+#titulo2{
+    padding: 30px 40px;
+    color: #11270f;
+    height: 60px;
+}
+#pd{
+    width: 435px;
+    height: 400px;
+    float: left;
+    background-color: #fff;
+}
+#cd{
+    width: 500px;
+    height: 400px;
+    float: left;
+    background-color: #fff;
+}
+
